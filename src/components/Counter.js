@@ -28,11 +28,14 @@ const Counter = () => {
                 className="counter-button"
                 onClick={() => setValue(value-1)}
                 >
-                    Restar 1</button>
-                <button className="counter-button"
+                    Restar 1
+                </button>
+                <button 
+                className="counter-button"
                 onClick={handleRestart}
                 >
-                    Restart</button>
+                    Restart
+                </button>
             </div>
         </div>
     )
