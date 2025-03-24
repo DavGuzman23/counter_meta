@@ -24,8 +24,15 @@ const Counter = () => {
                 >
                     Añadir 1
                 </button>
-                <button className="counter-button" onClick={() => setValue(value-1)}>Restar 1</button>
-                <button className="counter-button" onClick={handleRestart}>Restart</button>
+                <button
+                className="counter-button"
+                onClick={() => setValue(value-1)}
+                >
+                    Restar 1</button>
+                <button className="counter-button"
+                onClick={handleRestart}
+                >
+                    Restart</button>
             </div>
         </div>
     )
